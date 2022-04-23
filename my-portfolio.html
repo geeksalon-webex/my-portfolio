@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js"></script>
+    <title>自己紹介</title>
+  </head>
+    <header>
+        <div class="jikosyoukai">
+          <div id="introduction"><h1>introduction</h1></div>
+          <p style="font-size:40px;">
+          　大学３年の久慈和輝です！<br>
+            今年の４月から１年間休学してます。<br>
+            後悔の無いように頑張って生きます！<br>
+          </p></div>
+          <nav>
+            <ul>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#Hobbies">Hobbies</a></li>
+              <li><a href="#Quiz">Quiz</a></li>
+            </ul>
+          </nav>
+
+
+
+    </header>
+    <body>
+      <div class="all"> 
+        <section>
+        <div id="Hobbies"><h1>Hobbies</h1></div>
+
+        <p><img src="image/3.jpg" alt"画像サンプル" width="300" heigth="300" /></p>
+        <div class="textbox">
+      <table>
+        <thead >
+        <tr><th>カテゴリー</th><th>内容</th><th>コメント</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><mark>ゲーム</mark></td><td>スプラトゥーン</td><td>やり始めたら平気で2～3時間はやっちゃう</td></tr>
+        　<tr><td><mark>漫画</mark></td><td>暗殺教室</td><td>今まで見た漫画の中で一番名作だと思ってます</td></tr> 
+        　<tr><td><mark>生活</mark></td><td>掃除</td><td>汚いものが綺麗になるあの感じが好き</td></tr>
+        　<tr><td><mark>動物</mark><td>柴犬</td><td>犬派っていうか柴犬派</td></tr> 
+        　<tr><td><mark>科目</mark><td>英語</td><td>「得意」とは言ってないですけどねw</td></tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+      </section>
+
+      <!-- クイズコーナー -->
+      <section>
+        <div class="quizzes-container">
+          <div id="Quiz"><h1 style="font-size: 40px; text-decoration:underline;">Quiz  </h1></div>
+          <h2>僕について攻略してみよう!</h2>
+
+            <div class="quiz-1">
+              <h2>第1問</h2> 
+              <mark>僕が中毒になるほど好きなゲームは？<br></mark> 
+              <input name="answer" type="radio" value="a">APEX<br></input>
+              <input name="answer" type="radio" value="b">荒野行動<br></input>
+              <input name="answer" type="radio" value="c">スプラトゥーン<br></input>
+              </div>
+            <button id="Aquiz1">回答する</button>
+
+          <div class="quiz-2">
+            <h2>第2問</h2>
+              <mark>人に理解されない恐怖症は？<br></mark>
+              <input name="answer" type="radio" value="a">ピエロ恐怖症<br></input>
+              <input name="answer" type="radio" value="b">死角恐怖症<br></input>
+              <input name="answer" type="radio" value="c">横断歩道恐怖症</input>
+          </div>
+            <button id="Aquiz2">回答する</button>
+
+          <div class="quiz-3">
+            <h2>第3問</h2>
+              <mark>もし１つだけ願いが叶えられるなら<br>僕ならどうするか<br></mark>
+              <input name="answer" type="radio" value="a">記憶を維持して過去に戻る<br></input>
+              <input name="answer" type="radio" value="b">今後宝くじで１等が当たるようになる<br></input>
+              <input name="answer" type="radio" value="c">世界の半分を頂く</input>
+            </div>
+              <button id="Aquiz3">回答する</button>  
+
+            <p id="score-message"></p>
+          <button id="showScore">合計得点を見る</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

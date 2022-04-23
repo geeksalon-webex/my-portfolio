@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+header {
+  background: url(image/花瓶.png) no-repeat right center/cover;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px #000;
+  height: 720px;
+  position: relative;
+}
+
+body {
+  font-family: serif;
+  text-align: center;
+  background-color: #ffa500;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.quizzes-container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.quiz-container {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+#score-container {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.jikosyoukai {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  bottom: 0;
+}
+
+.syoukai {
+  font-size: 25px;
+  text-align: center;
+}
+
+#Aquiz1 {
+  width: 100px;
+  height: 45px;
+  margin: 15px;
+  font-size: 20px;
+  background-color: #fff0f5;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.quiz-1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#Aquiz2 {
+  width: 100px;
+  height: 45px;
+  margin: 15px;
+  font-size: 20px;
+  background-color: #fff0f5;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.quiz-2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#Aquiz3 {
+  width: 100px;
+  height: 45px;
+  margin: 15px;
+  font-size: 20px;
+  background-color: #fff0f5;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.quiz-3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#showScore {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #fff0f5;
+}
+
+.quizzes-container {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  border-width: 5px;
+  text-align: center;
+}
+
+#introduction {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
+
+header {
+  height: 720px;
+}
+
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header nav ul {
+  font-size: 30px;
+  display: flex;
+  width: 1240px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  justify-content: space-around;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#Hobbies {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.all {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  border-width: 5px;
+  margin: 5px;
+}
+
+.textbox {
+  font-size: 30px;
+  text-align: center;
+}
