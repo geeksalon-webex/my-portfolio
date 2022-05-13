@@ -52,13 +52,13 @@ const select_three = "3問目:" + quiz3A + "を選択しました";
 
 const Aquiz3 = function(){
   if (quiz3A == "a"){
+    score++;
     console.log(select_three);
     console.log(correct);
   }else if (quiz3A == "b"){
   console.log(select_three);
   console.log(incorrect);
   } else if (quiz3A == "c"){
-  score++;
   console.log(select_three);
   console.log(incorrect);
   } else {
@@ -69,7 +69,7 @@ const Aquiz3 = function(){
 
 let score = quizS;
 
-button.onclik = function(){
+score.onclik = function(){
   if(let score = 0; score ===3;){
   quizS.innerHTML = score + "点：満点！";
   } else if(score === 2 ) {
